@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class EmployeeController {
-@RequestMapping("/hello1")
+@RequestMapping("/hello11")
 public String hello() {
 	return "hello";
 }
